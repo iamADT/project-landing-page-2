@@ -32,7 +32,84 @@ li{
 
 a{
     text-decoration: none;
-    color: #f0f6ff;
+    color: #f9faf8;
 }
 
 /* Hero Styles*/
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    height: 600px;
+    background-color: #1F2937;
+    padding: 16px;
+    flex: 1;
+}
+
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    padding-left: 8px;
+}
+
+.hero-right{
+    max-width: 400px;
+}
+
+.hero-left, .hero-right {
+    flex-basis: 50%;
+    flex-shrink: 1;
+    min-width: 0;
+}
+
+
+h1{
+    font-size: 48px;
+    line-height: 72px;
+    margin-bottom: 8px;
+    color: #f9faf8;
+}
+
+h3{
+    color: #f9faf8;
+    color: #E5E7EB;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+    font-weight: 500;
+}
+
+.hero-image{
+    max-width: 100%;
+    height: auto;
+}
+
+button{
+    width: fit-content;
+    padding: 16px 32px;
+    background-color: #3882F6;
+    color: #f9faf8;
+    border: 0px solid #3882F6;
+    border-radius: 8px;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+
+@media (max-width: 800px) {
+    h1 {
+        font-size: 32px;
+        line-height: 48px;
+    }
+    h3{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    button{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
