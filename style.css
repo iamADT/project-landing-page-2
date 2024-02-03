@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Nav Bar Styles*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    background-color: #1F2937;
+    color: #f0f6ff;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header-links{
+    display: flex;
+    gap: 16px;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: #f0f6ff;
+}
+
+/* Hero Styles*/
