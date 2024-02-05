@@ -30,7 +30,7 @@ li{
     list-style-type: none;
 }
 
-a{
+.nav-link{
     text-decoration: none;
     color: #f9faf8;
 }
@@ -98,6 +98,148 @@ button{
     line-height: 32px;
 }
 
+
+/* Logos Section Styles*/
+
+.logos-section{
+    padding: 40px 16px;
+}
+
+.logos-heading{
+    font-size: 32px;
+    line-height: 48px;
+    color: #1F2937;
+    text-align: center;
+    font-weight: 600;
+}
+
+.logos-content-section{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    padding: 40px 16px;
+}
+
+.logo-text-container, .logo-text-link-container{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.logo-content, .logo-image-container, .logo-text-link{
+    width: 120px;
+}
+
+.logo-image-container{
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 16px;
+}
+
+.logo-image{
+    width: 100%;
+    height: auto;
+}
+
+.logo-text{
+    text-align: center;
+    margin: 0px auto;
+    max-width: 96px;
+}
+
+.logo-text-link{
+    color: #1F2937;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Testimonials*/
+
+.testimonials-section{
+    background-color: #E5E7EB;
+    padding: 20px 40px;
+    height: 400px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+}
+
+.testimonial-text{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    margin-bottom: 16px;
+}
+
+.testimonial-name{
+    align-self: flex-end;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/*Call to action*/
+.cta-section{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+}
+
+.cta-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    background-color: #3882F6;
+    padding: 20px 40px;
+    border: 0px solid #3882F6;
+    border-radius: 8px;
+}
+
+.cta-content{
+    display: flex;
+    flex-direction: column;
+    color: #E5E7EB;
+    justify-content: center;
+}
+
+.cta-heading{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.cta-button{
+    background-color: #ffffff;
+    color: #3882F6;
+    border: 0px solid #3882F6;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 16px;
+}
+
+/* Footer */
+footer{
+    background-color: #1F2937;
+    color: #f0f6ff;
+    text-align: center;
+    padding: 16px;
+}
+
+/* Media Queries*/
 
 @media (max-width: 800px) {
     h1 {
